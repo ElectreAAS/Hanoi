@@ -1,2 +1,4 @@
 (executable
- (name main))
+ (name main)
+ (modes native)
+ (libraries notty notty.unix))
